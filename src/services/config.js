@@ -21,7 +21,7 @@ export const db = getFirestore(app)
 ////////////////////////
 /*
 const misProductos = [
-    { nombre: "BowlerHat", precio: 29, img: "../img/BowlerHat.png", idCat: "cabeza", stock: 30 },
+    { nombre: "BowlerHat", precio: 29, img: "../public/img/BowlerHat.png", idCat: "cabeza", stock: 30 },
     { nombre: "CowboyHat", precio: 35, img: "../img/CowboyHat.png", idCat: "cabeza", stock: 30 },
     { nombre: "Hood", precio: 75, img: "../img/Hood.png", idCat: "cabeza", stock: 30 },
     { nombre: "PsychicFoilHelmet", precio: 250, img: "../img/PsychicFoilHelmet.png", idCat: "cabeza", stock: 30 },
