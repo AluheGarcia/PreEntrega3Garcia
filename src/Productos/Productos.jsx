@@ -6,8 +6,6 @@ const Productos = () => {
     const [productos, setProductos] = useState([])
     useEffect(()=>{
         const misProductos = query(collection(db, "inventario"));
-        //para filtrar
-        //const misProductos = query(collection(db, "inventario"), where("precio", "<", 500))
 
         getDocs(misProductos)
             .then(respuesta=>{

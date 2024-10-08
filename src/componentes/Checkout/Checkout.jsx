@@ -2,6 +2,7 @@ import { useState, useContext } from "react"
 import { CarritoContext } from "../../context/CarritoContext"
 import { db } from "../../services/config"
 import { collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore"
+import "./Checkout.css"
 
 const Checkout = () => {
     const [nombre, setNombre] = useState("")
@@ -76,7 +77,7 @@ const Checkout = () => {
     }
 
     return (
-        <div>
+        <div className="checkout">
             <h2>Checkout: </h2>
 
             <form onSubmit={manejadorFormulario}>

@@ -1,4 +1,3 @@
-import Swal from "sweetalert2";
 import { useState, createContext } from "react";
 
 export const CarritoContext = createContext({

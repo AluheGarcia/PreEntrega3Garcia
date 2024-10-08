@@ -1,10 +1,27 @@
 .contenedorItem{
     text-align: center;
     border: 1px solid rgb(255, 0, 0);
+    background: linear-gradient(to top left, #000000, rgb(146, 0, 0));
     margin: 4rem;
-    color: gray;
+    padding: 100px;
+    color: rgb(146, 0, 0);
+    h2,h3,p, strong{
+        color: gray;
+    }
+    strong{
+        padding: 10px;
+    }
+}
+button{
+    color: #fafafa;
+    text-decoration: none;
+    background: linear-gradient(to left, #440c0c, rgb(146, 0, 0));
 }
 
 .contenedorItem img{
-    width: 30vw;
+    width: 25vw;
+}
+a{
+    color: #fafafa;
+    text-decoration: none;
 }

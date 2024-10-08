@@ -10,6 +10,7 @@ import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "./App.css"
 import Checkout from "./componentes/Checkout/Checkout";
+import SitioEnConstruccion from "./componentes/SitioEnConstruccion/SitioEnConstruccion";
 
 const App = () => {
   return (
@@ -26,7 +27,7 @@ const App = () => {
             <Route path="/item/:idItem" element={<ItemDetailContainer />} />
             <Route path="/cart" element={<Cart/>}/>
             <Route path="/checkout" element={<Checkout/>}/>
-            <Route path="*" element={ <h2> Sitio en construccion</h2> }/>
+            <Route path="/SitioEnConstruccion" element={<SitioEnConstruccion/>}/>
           </Routes>
         </CarritoProvider>
         <ToastContainer />
