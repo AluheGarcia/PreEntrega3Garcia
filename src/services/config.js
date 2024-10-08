@@ -3,7 +3,7 @@ import { getFirestore } from "firebase/firestore";
   
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCWurGoTipaNHdRwOgbJlbuSCZdKfYVNhQ",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "rimworld-e-commerce.firebaseapp.com",
   projectId: "rimworld-e-commerce",
   storageBucket: "rimworld-e-commerce.appspot.com",
